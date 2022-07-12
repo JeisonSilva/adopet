@@ -1,20 +1,71 @@
-.titulo{
-    font-family: var(--font-ibmPlex);
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 48px;
+body{
+    background-color: var(--primary);
+    background-image: url(../img/login/Forma\ 2.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 25vh;
+    background-size: 20%;
 }
 
-.subtitulo{
-    font-family: var(--font-ibmPlex);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+.cabecalho{
+    background-image: url(../img/login/Forma\ 1.svg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 40vh;
 }
 
-.titulo__botao{
-    font-family: var(--fonte-poppins);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
+.cabecalhoContainer__icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 54vw;
+    height: 16vh;
+
 }
+
+.cabecalhoContainer__icon > img{
+    width: 24px;
+    height: 24px;
+}
+
+.cabecalhoContainer__logo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10% 0 0 0;
+    width: 100vw;
+    height: 20vh;
+}
+
+.cabecalhoContainer__logo > img{
+    width: 12em;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100vw;
+    height: 20vh;
+
+}
+
+.container > p{
+    width: 248px;
+    text-align: center;
+}
+
+.botao{
+    text-decoration: none;
+    background-color: var(--detalhe);
+    border-radius: 6px;
+    
+    padding: 8px 28px 8px 28px;
+    
+}
+
