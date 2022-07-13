@@ -62,10 +62,13 @@ body{
 
 .botao{
     text-decoration: none;
+    text-align: center;
     background-color: var(--detalhe);
     border-radius: 6px;
     
     padding: 8px 28px 8px 28px;
+
+    width: 50%;
     
 }
 
