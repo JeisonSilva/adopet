@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./asserts/css/reset.css">
+    <link rel="stylesheet" href="./asserts/css/cores.css">
+    <link rel="stylesheet" href="./asserts/css/texto.css">
+    <link rel="stylesheet" href="./asserts/css/fontes.css">
+    <link rel="stylesheet" href="./asserts/css/cadastro.css">
+    <title>Adopet</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="cabecalho__imgpatas-right" src="./asserts/img/cadastro/Patas.svg" alt="">
+
+      <div class="cabecalhoContainer__icon">
+        <img src="./asserts/img/icons/Casa.svg" alt="Icone de home ou tela principal">
+        <img src="./asserts/img/icons/Mensagens.svg" alt="Icone de mensagem">
+      </div>
+
+      <div class="cabecalhoContainer__logo">
+        <img src="./asserts/img/cadastro/Logo.svg" alt="">
+        <h3 class="titulo">Boas-vindas!</h3>
+      </div>
+    </header>
+
+    <main class="container">
+      <p class="texto-azul">Ainda não tem cadastro?<br>
+        Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+
+        <label class="texto__campo titulo__campo" for="email">Email
+          <input class="campo" type="email" id="email" placeholder="Escolha seu melhor e-mail">
+        </label>
+
+        <label class="texto__campo titulo__campo" for="nome">Nome
+          <input class="campo" type="text" id="nome" placeholder="Digite seu nome completo">
+        </label>
+
+        <label class="texto__campo titulo__campo" for="senha">Senha
+          <img class="campo__icon" src="./asserts/img/cadastro/Vector.svg" alt="icone para exibir a senha">
+          <input class="campo" type="password" id="senha" placeholder="Crie uma senha">
+          
+        </label>
+
+        <label class="texto__campo titulo__campo" for="confirmSenha">Confirma sua senha
+          <img class="campo__icon" src="./asserts/img/cadastro/Vector.svg" alt="icone para exibir a senha">
+          <input class="campo" type="password" id="confirmSenha" placeholder="Repita a senha criada em cima">
+          
+        </label>
+
+        <button class="botao titulo__botao">Cadastrar</button>
+    </main>
+
+    <footer class="rodape">
+      <p class="texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+  </body>
+</html>
