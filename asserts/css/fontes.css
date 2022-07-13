@@ -1,0 +1,47 @@
+.titulo{
+    font-family: var(--font-ibmPlex);
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+
+    color: var(--texto-branco);
+}
+
+.subtitulo{
+    font-family: var(--font-ibmPlex);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.titulo__botao{
+    font-family: var(--fonte-poppins);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--texto-branco);
+}
+
+.texto{
+    font-family: var(--fonte-poppins);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--texto-branco);
+}
+
+.texto__campo{
+    font-family: var(--fonte-poppins);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--texto-campo);
+}
+
+.texto-azul{
+    font-family: var(--fonte-poppins);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primary);
+}
