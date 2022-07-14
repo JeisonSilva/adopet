@@ -15,27 +15,38 @@
     <link rel="stylesheet" href="./asserts/css/cores.css">
     <link rel="stylesheet" href="./asserts/css/texto.css">
     <link rel="stylesheet" href="./asserts/css/fontes.css">
-    <link rel="stylesheet" href="./asserts/css/index.css">
+    <link rel="stylesheet" href="./asserts/css/login.css">
     <title>Adopet</title>
   </head>
   <body>
     <header class="cabecalho">
+      <img class="cabecalho__imgpatas-right" src="./asserts/img/cadastro/Patas.svg" alt="">
+
       <div class="cabecalhoContainer__icon">
         <a href="index.html"><img src="./asserts/img/icons/Casa.svg" alt="Icone de home ou tela principal"></a>
         <img src="./asserts/img/icons/Mensagens.svg" alt="Icone de mensagem">
       </div>
 
       <div class="cabecalhoContainer__logo">
-        <img src="./asserts/img/login/Logo.svg" alt="">
+        <img src="./asserts/img/cadastro/Logo.svg" alt="">
         <h3 class="titulo">Boas-vindas!</h3>
       </div>
     </header>
 
     <main class="container">
-      <p class="texto">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
-      <a class="botao titulo__botao" href="login.html">Já tenho conta</a>
-      <a class="botao titulo__botao" href="cadastro.html">Quero me cadastrar</a>
-      <img src="./asserts/img/login/Ilustração 1.svg" alt="">
+      <p class="texto-azul">Já tem conta? Faça seu login:</p>
+
+        <label class="texto__campo titulo__campo" for="email">Email
+          <input class="campo" type="email" id="email" placeholder="Escolha seu melhor e-mail">
+        </label>
+
+        <label class="texto__campo titulo__campo" for="senha">Senha
+          <img class="campo__icon" src="./asserts/img/cadastro/Vector.svg" alt="icone para exibir a senha">
+          <input class="campo" type="password" id="senha" placeholder="Crie uma senha">
+          
+        </label>
+
+        <a class="botao titulo__botao" href="#">Entrar</a>
     </main>
 
     <footer class="rodape">
