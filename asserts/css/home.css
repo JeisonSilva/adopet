@@ -1,6 +1,4 @@
 body{
-    background-color: var(--fundo-branco);
-    background-image: url(../img/cadastro/Forma\ 2.svg);
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: 40vh;
@@ -8,22 +6,32 @@ body{
 }
 
 .cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(../img/login/Forma\ 1.svg);
     background-repeat: no-repeat;
     width: 100vw;
-    height: 28vh;
+    height: 25vh;
 }
 
 .cabecalhoContainer__icon{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 54vw;
+
+    width: 70vw;
     height: 16vh;
 
 }
 
-.cabecalhoContainer__icon > img{
+.container__navigations{
+    display: flex;
+    column-gap: 40%;
+
+    width: 60%;
+}
+.cabecalhoContainer__icon > .icon{
     width: 24px;
     height: 24px;
 }
@@ -47,11 +55,12 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    row-gap: 16px;
     align-items: center;
+    overflow: scroll;
 
     width: 100vw;
-    height: 35vh;
+    height: 68vh;
 
 }
 
@@ -115,4 +124,38 @@ body{
     right: 0;
 }
 
+.perfil__img{
+    width: 35px;
+    height: 35px;
+}
+
+.cabecalho > .texto-azul{
+    width: 60%;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--fundo-campo);
+
+    width: 100vw;
+    height: 196px;
+}
+
+.card__dadospessoais{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 46%;
+    height: 80%;
+}
+
+.card__mensagem{
+    display: flex;
+    justify-content: space-between;
+
+    width: 85%;
+}
 
