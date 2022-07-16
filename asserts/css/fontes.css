@@ -77,3 +77,11 @@
     line-height: 24px;
     color: var(--primary);
 }
+
+.texto-azul--600{
+    font-family: var(--fonte-poppins);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primary);
+}
