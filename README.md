@@ -1,6 +1,8 @@
 # Adopet
-|![alttext](https://img.shields.io/badge/Release-v0.1.0-BrightGreen)|
+|![alttext](https://img.shields.io/badge/Release-v0.2.6-BrightGreen)|
 ---------------------------------------------------------------------|
+
+[https://jeisonsilva.github.io/adopet](https://jeisonsilva.github.io/adopet)
 
 Este projeto tem por objetivo a criação de uma vitríne de cãezinhos para adoção onde podemos incentivar futuros amigos a se descobrirem.
 
