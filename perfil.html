@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./asserts/css/texto.css" />
     <link rel="stylesheet" href="./asserts/css/fontes.css" />
     <link rel="stylesheet" href="./asserts/css/rodape.css">
-    <link rel="stylesheet" href="./asserts/css/mensagem.css" />
+    <link rel="stylesheet" href="./asserts/css/perfil.css" />
     <title>Adopet</title>
   </head>
   <body>
@@ -35,23 +35,30 @@
               alt="Icone de mensagem"
           /></a>
         </div>
+
         <a href="perfil.html"><img class="perfil__img" src="./asserts/img/icons/Usuário.svg" alt="Icone de mensagem"></a>
       </div>
 
       <p class="texto-azul">
-        Envie uma mensagem para a pessoa ou instituição que está cuidando do
-        animal:
+        Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.
       </p>
     </header>
 
     <main class="container">
       <div class="card">
+        <h1 class="titulo__card--cinza" >Perfil</h1>
+
+        <label class="texto-azul--600 titulo__campo" for="nome">Foto</label>
+        <img class="card__imgperfil" src="./asserts/img/perfil/Ellipse 2.svg" alt="">
+        <a class="texto-vermelho" href="#"><p>Clique na foto para editar</p></a>
+
         <div>
           <label class="texto-azul--600 titulo__campo" for="nome">Nome</label>
           <input
-            class="campo"
+            class="campo texto__campo--size14px"
             type="text"
             id="nome"
+            value="Joana Magalhães"
             placeholder="Insira seu nome completo"
           />
         </div>
@@ -61,35 +68,38 @@
             >Telefone</label
           >
           <input
-            class="campo"
+            class="campo texto__campo--size14px"
             type="text"
             id="telefone"
+            value="55 11 XXXXXXXXX"
             placeholder="Insira seu telefone e/ou whatsapp"
           />
         </div>
 
         <div>
           <label class="texto-azul--600 titulo__campo" for="nomeanimal"
-            >Nome do animal</label
+            >Cidade</label
           >
           <input
-            class="campo"
+            class="campo texto__campo--size14px"
             type="text"
             id="nomeanimal"
+            value="São Paulo"
             placeholder="Por qual animal você se interessou?"
           />
         </div>
 
         <div class="mensagem">
           <label class="texto-azul--600 titulo__area" for="mensagem"
-            >Mensagem</label
+            >Sobre</label
           >
           <textarea
-            class="campo__area"
+            class="campo__area texto__campo--size14px"
             type="text"
             id="mensagem"
             placeholder="Escreva sua mensagem."
-          ></textarea>
+            
+          >At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</textarea>
           <a href="login.html" class="botao titulo__botao">Cadastrar</a>
         </div>
 

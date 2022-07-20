@@ -30,6 +30,14 @@
     color: var(--primary);
 }
 
+.titulo__card--cinza{
+    font-family: var(--fonte-poppins);
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 24px;
+    color: var(--texto-campo);
+}
+
 .texto{
     font-family: var(--fonte-poppins);
     font-weight: 400;
@@ -70,6 +78,14 @@
     color: var(--texto-campo);
 }
 
+.texto__campo--size14px{
+    font-family: var(--fonte-poppins);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--texto-campo);
+}
+
 .texto-azul{
     font-family: var(--fonte-poppins);
     font-weight: 400;
@@ -84,4 +100,13 @@
     font-size: 16px;
     line-height: 24px;
     color: var(--primary);
+}
+
+.texto-vermelho{
+    font-family: var(--fonte-poppins);
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--detalhe);
 }
