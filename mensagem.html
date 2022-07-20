@@ -11,48 +11,93 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./asserts/css/reset.css">
-    <link rel="stylesheet" href="./asserts/css/cores.css">
-    <link rel="stylesheet" href="./asserts/css/texto.css">
-    <link rel="stylesheet" href="./asserts/css/fontes.css">
-    <link rel="stylesheet" href="./asserts/css/mensagem.css">
+    <link rel="stylesheet" href="./asserts/css/reset.css" />
+    <link rel="stylesheet" href="./asserts/css/cores.css" />
+    <link rel="stylesheet" href="./asserts/css/texto.css" />
+    <link rel="stylesheet" href="./asserts/css/fontes.css" />
+    <link rel="stylesheet" href="./asserts/css/mensagem.css" />
     <title>Adopet</title>
   </head>
   <body>
     <header class="cabecalho">
-
       <div class="cabecalhoContainer__icon">
-       <div class="container__navigations">
-            <a href="index.html"><img class="icon" src="./asserts/img/icons/Casa.svg" alt="Icone de home ou tela principal"></a>
-            <a href="mensagem.html"><img src="./asserts/img/icons/Mensagens.svg" alt="Icone de mensagem"></a>
-       </div>
-        <img class="perfil__img" src="./asserts/img/icons/Usuário.svg" alt="Icone de mensagem">
+        <div class="container__navigations">
+          <a href="index.html"
+            ><img
+              class="icon"
+              src="./asserts/img/icons/Casa.svg"
+              alt="Icone de home ou tela principal"
+          /></a>
+          <a href="mensagem.html"
+            ><img
+              src="./asserts/img/icons/Mensagens.svg"
+              alt="Icone de mensagem"
+          /></a>
+        </div>
+        <img
+          class="perfil__img"
+          src="./asserts/img/icons/Usuário.svg"
+          alt="Icone de mensagem"
+        />
       </div>
 
-      
-      <p class="texto-azul">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+      <p class="texto-azul">
+        Envie uma mensagem para a pessoa ou instituição que está cuidando do
+        animal:
+      </p>
     </header>
 
     <main class="container">
-        <div class="card">
-            <label class="texto-azul--600 titulo__campo" for="nome">Nome
-                <input class="campo" type="text" id="nome" placeholder="Insira seu nome completo">
-              </label>
-
-              <label class="texto-azul--600 titulo__campo" for="telefone">Telefone
-                <input class="campo" type="text" id="telefone" placeholder="Insira seu telefone e/ou whatsapp">
-              </label>
-
-              <label class="texto-azul--600 titulo__campo" for="nomeanimal">Nome do animal
-                <input class="campo" type="text" id="nomeanimal" placeholder="Por qual animal você se interessou?">
-              </label>
-
-              <label class="texto-azul--600 titulo__area" for="mensagem">Mensagem
-                <textarea class="campo__area" type="text" id="mensagem" cols="30" rows="20" placeholder="Escreva sua mensagem."></textarea>
-              </label>
-
-              <a href="login.html" class="botao titulo__botao">Cadastrar</a>
+      <div class="card">
+        <div>
+          <label class="texto-azul--600 titulo__campo" for="nome">Nome</label>
+          <input
+            class="campo"
+            type="text"
+            id="nome"
+            placeholder="Insira seu nome completo"
+          />
         </div>
+
+        <div>
+          <label class="texto-azul--600 titulo__campo" for="telefone"
+            >Telefone</label
+          >
+          <input
+            class="campo"
+            type="text"
+            id="telefone"
+            placeholder="Insira seu telefone e/ou whatsapp"
+          />
+        </div>
+
+        <div>
+          <label class="texto-azul--600 titulo__campo" for="nomeanimal"
+            >Nome do animal</label
+          >
+          <input
+            class="campo"
+            type="text"
+            id="nomeanimal"
+            placeholder="Por qual animal você se interessou?"
+          />
+        </div>
+
+        <div class="mensagem">
+          <label class="texto-azul--600 titulo__area" for="mensagem"
+            >Mensagem</label
+          >
+          <textarea
+            class="campo__area"
+            type="text"
+            id="mensagem"
+            placeholder="Escreva sua mensagem."
+          ></textarea>
+          <a href="login.html" class="botao titulo__botao">Cadastrar</a>
+        </div>
+
+        
+      </div>
     </main>
 
     <footer class="rodape">
