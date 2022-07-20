@@ -1,3 +1,5 @@
+@import url(./_rodape.css);
+
 body{
     background-color: var(--fundo-branco);
     background-image: url(../img/cadastro/Forma\ 2.svg);
@@ -47,11 +49,11 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     width: 100vw;
-    height: 60vh;
+    height: 64vh;
 
 }
 
@@ -69,18 +71,6 @@ body{
     
     padding: 8px 28px 8px 28px;
     
-}
-
-.rodape{
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--secundario);
-
-    bottom: 0;
-    width: 100vw;
-    height: 70px;
 }
 
 .cabecalho__imgpatas-right{
