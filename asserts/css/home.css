@@ -1,3 +1,5 @@
+@import url(./_rodape.css);
+
 body{
     background-repeat: no-repeat;
     background-position-x: left;
@@ -80,17 +82,6 @@ body{
     
 }
 
-.rodape{
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--secundario);
-
-    bottom: 0;
-    width: 100vw;
-    height: 70px;
-}
 
 .cabecalho__imgpatas-right{
     position: absolute;
