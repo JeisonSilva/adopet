@@ -1,3 +1,5 @@
+@import url(./_rodape.css);
+
 body{
     background-color: var(--primary);
     background-image: url(../img/login/Forma\ 2.svg);
@@ -47,11 +49,12 @@ body{
 .container{
     display: flex;
     flex-direction: column;
+    row-gap: 8px;
     justify-content: space-around;
     align-items: center;
 
     width: 100vw;
-    height: 60vh;
+    height: 100%;
 
 }
 
@@ -70,17 +73,5 @@ body{
 
     width: 50%;
     
-}
-
-.rodape{
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--secundario);
-
-    bottom: 0;
-    width: 100vw;
-    height: 70px;
 }
 
