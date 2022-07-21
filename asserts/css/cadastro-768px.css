@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px)  {
+    .container > p {
+        text-align: center;
+        width: 60%;
+    }
+
+    .cabecalho{
+        height: 32vh;
+    }
+
+    .cabecalhoContainer__logo{
+        padding: 8% 0 0 0;
+    }
+
+    .campo{
+        width: 344px;
+    }
+
+    .titulo__campo{
+        width: 344px;
+    }
+}

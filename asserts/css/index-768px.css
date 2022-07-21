@@ -1,22 +1,14 @@
 @media screen and (min-width: 768px) {
-  .cabecalho {
-    background-size: 64vw;
-  }
 
-  .cabecalhoContainer__icon > img {
-    width: 128px;
-    height: 30px;
-  }
-
-  .container > p{
+  .container > p {
     width: 280px;
   }
 
-  .botao{
+  .botao {
     width: 30%;
   }
 
-  .logo__icon{
+  .logo__icon {
     display: inline;
-}
+  }
 }
