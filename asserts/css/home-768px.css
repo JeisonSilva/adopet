@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) {
+  .cabecalho {
+    height: 40vh;
+    width: 100%;
+}
+main{
+    padding: 64px;
+}
+
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+
+        background-image: none;
+    }
+
+  .cabecalhoContainer__icon {
+    width: 90vw;
+  }
+
+  .texto__mobile {
+    display: none;
+  }
+
+  .texto__desktop {
+    display: inline;
+
+    padding: 15% 0 0 0;
+  }
+
+  .card{
+    width: 300px;
+  }
+}
