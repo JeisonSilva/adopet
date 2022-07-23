@@ -1,18 +1,31 @@
-.logo__icon{
-    display: none;
+.logo__icon {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
-    .cabecalho {
-      background-size: 64vw;
-    }
-  
-    .cabecalhoContainer__icon > img {
-      width: 128px;
-      height: 30px;
-    }
-    
-    .logo__icon {
-      display: inline;
-    }
+  .container{
+    background-size: 12%;
+    background-position-x: right;
+    background-position-y: top;
+    background-image: url(../img/login/Forma\ 2.svg);
+    background-repeat: no-repeat;
   }
+
+  .cabecalho {
+    background-size: 80vw;
+    height: 40vh;
+  }
+
+  .cabecalhoContainer__icon > img {
+    width: 128px;
+    height: 30px;
+  }
+
+  .logo__icon {
+    display: inline;
+  }
+
+  .cabecalhoContainer__logo{
+    justify-content: flex-end
+  }
+}

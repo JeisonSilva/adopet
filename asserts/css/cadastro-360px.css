@@ -1,11 +1,3 @@
-body{
-    background-color: var(--fundo-branco);
-    background-image: url(../img/cadastro/Forma\ 2.svg);
-    background-repeat: no-repeat;
-    background-position-x: left;
-    background-position-y: 40vh;
-    background-size: 20%;
-}
 
 .cabecalho{
     background-image: url(../img/login/Forma\ 1.svg);
