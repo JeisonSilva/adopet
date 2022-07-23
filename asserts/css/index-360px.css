@@ -1,11 +1,6 @@
 
 body{
     background-color: var(--primary);
-    background-image: url(../img/login/Forma\ 2.svg);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: 25vh;
-    background-size: 20%;
 }
 
 .cabecalho{
@@ -51,6 +46,11 @@ body{
     row-gap: 8px;
     justify-content: space-around;
     align-items: center;
+    background-image: url(../img/login/Forma\ 2.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 25vh;
+    background-size: 20%;
 
     width: 100vw;
     height: 100%;
