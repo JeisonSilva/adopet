@@ -1,0 +1,27 @@
+@import url(./cores.css);
+
+.titulo__1 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 48px;
+  color: var(--branco);
+}
+
+.subtitulo__1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  color: var(--branco);
+}
+
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 24px;
+}
