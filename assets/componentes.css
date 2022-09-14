@@ -1,0 +1,14 @@
+@import url(./cores.css);
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--salmon);
+    color: var(--branco);
+    text-decoration: none;
+    border-radius: 6px;
+
+    width: 224px;
+    height: 50px;
+}

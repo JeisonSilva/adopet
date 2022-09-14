@@ -3,8 +3,49 @@
 @import url(./header.css);
 @import url(./footer.css);
 @import url(./main.css);
+@import url(./fontes.css);
+@import url(./componentes.css);
 
 body{
     background-color: var(--fundo);
     overflow: hidden;
+}
+
+.bemvindo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 100px;
+}
+
+.bemvindo__logo{
+    width: 50%;
+}
+
+.cricaoconta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 200px;
+}
+
+.cricaoconta__titulo1--center{
+    text-align: center;
+    width: 70%;
+}
+
+.logo2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo2>img{
+    width: 220px;
 }
