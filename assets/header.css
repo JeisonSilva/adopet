@@ -1,0 +1,7 @@
+header{
+    background-image: url(./image/header1.svg);
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 100vw;
+    height: 290px;
+}

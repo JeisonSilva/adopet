@@ -1,0 +1,19 @@
+{
+  "name": "adopet",
+  "version": "0.0.0",
+  "description": "Portal de adocao de animais de estimacao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeisonSilva/adopet.git"
+  },
+  "author": "Jeison O. da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeisonSilva/adopet/issues"
+  },
+  "homepage": "https://github.com/JeisonSilva/adopet#readme"
+}

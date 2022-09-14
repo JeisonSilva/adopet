@@ -1,0 +1,12 @@
+main{
+    position: absolute;
+    background-color: var(--fundo);
+    background-image: url(./image/main1.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+
+    top: 150px;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
