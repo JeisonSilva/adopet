@@ -1,19 +1,39 @@
-header{
-    position: relative;
-    background-image: url(./image/header1.svg);
-    background-repeat: no-repeat;
+header {
+  position: relative;
+  background-image: url(./image/header1.svg);
+  background-repeat: no-repeat;
 
-    z-index: 0;
-    padding: 8% 0 0 0;
-    width: 100vw;
-    height: 290px;
+  z-index: 0;
+  padding: 8% 0 0 0;
+  width: 100vw;
+  height: 290px;
 }
 
-.menu{
-    position: absolute;
+.menu {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+}
+
+.menu > li:nth-child(1){
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    background-image: url(./image/header2.svg);
+  }
+
+  .menu > li {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     width: 50%;
-    height: 50px;
+  }
+
+  .bemvindo__logo{
+    width: 75%;
+  }
 }
