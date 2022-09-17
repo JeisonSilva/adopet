@@ -1,12 +1,26 @@
-main{
-    position: absolute;
-    background-color: var(--fundo);
-    background-image: url(./image/main1.svg);
-    background-repeat: no-repeat;
-    background-position-x: right;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  background-color: var(--fundo);
+  background-image: url(./image/main1.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
 
-    top: 150px;
-    z-index: -1;
-    width: 100vw;
-    height: 80vh;
+  top: 150px;
+  z-index: -1;
+  width: 100vw;
+  height: 80vh;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    background-image: url(./image/main2.svg);
+    background-size: 116px;
+    top: 245px;
+
+    height: 70%;
+  }
 }
