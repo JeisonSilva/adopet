@@ -1,10 +1,10 @@
 footer{
     display: flex;
+    position: fixed;
+    bottom: 0;
     justify-content: center;
     align-items: center;
-    position: absolute;
     background-color: aquamarine;
-    bottom: 0;
     width: 100vw;
-    height: 80px;
+    height: 60px;
 }
