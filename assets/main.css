@@ -24,3 +24,11 @@ main {
     height: 70%;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  main{
+    top:80px;
+
+    height: 85%;
+  }
+}
