@@ -21,7 +21,7 @@ main {
     background-size: 116px;
     top: 245px;
 
-    height: 70%;
+    height: calc(100% - 25%);
   }
 }
 
