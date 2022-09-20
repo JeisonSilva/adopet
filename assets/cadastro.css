@@ -114,6 +114,11 @@ label > input {
     width: 50%;
   }
 
+  .apresentacao__cadastro > img{
+    width: 180px;
+    height: 60px;
+  }
+
   .cadastro {
     width: 34%;
   }
