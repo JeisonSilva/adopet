@@ -70,3 +70,34 @@ label > input {
   width: 85%;
   height: 25%;
 }
+
+@media screen and (min-width: 768px) {
+  main {
+    background-image: url(./image/main2.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+
+    background-position-y: 12%;
+    background-size: 15%;
+
+    height: 72%;
+  }
+
+  .cadastro {
+    width: 50%;
+  }
+
+  .apresentacao__cadastro > img {
+    width: 250px;
+    height: 62px;
+  }
+
+  .apresentacao__cadastro > p {
+    width: 80%;
+    text-align: center;
+  }
+
+  .subtitulo__2 {
+    font-size: 18px;
+  }
+}
