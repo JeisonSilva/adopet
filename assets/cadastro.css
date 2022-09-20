@@ -1,0 +1,65 @@
+@import url(./reset.css);
+@import url(./cores.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./main.css);
+@import url(./fontes.css);
+@import url(./componentes.css);
+
+main {
+  background-color: inherit;
+  background-image: url(./image/main3.svg);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: 70%;
+  background-size: 20%;
+
+  top: 25%;
+
+  z-index: 1;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 70%;
+  height: 75%;
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+label > input{
+  width: 100%;
+}
+
+
+.subtitulo__1{
+  color: var(--roxo);
+}
+
+.input__icon{
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.input__icon > input{
+  width: 100%;
+}
+
+.input__icon > span{
+  position: absolute;
+  align-self: center;
+  right: 0;
+
+  margin: 0 16px 0 0;
+}
