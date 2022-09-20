@@ -1,0 +1,125 @@
+@import url(./reset.css);
+@import url(./cores.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./main.css);
+@import url(./fontes.css);
+@import url(./componentes.css);
+
+main {
+  background-color: inherit;
+  background-image: url(./image/main3.svg);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: 100%;
+  background-size: 20%;
+
+  height: 70%;
+  top: 20%;
+  z-index: 1;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 70%;
+  height: 75%;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label > input {
+  width: 100%;
+}
+
+.subtitulo__1 {
+  color: var(--roxo);
+}
+
+.input__icon {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.input__icon > input {
+  width: 100%;
+}
+
+.input__icon > span {
+  position: absolute;
+  align-self: center;
+  right: 0;
+
+  margin: 0 16px 0 0;
+}
+
+.apresentacao__cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 85%;
+  height: 25%;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    background-image: url(./image/main2.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+
+    background-position-y: 12%;
+    background-size: 15%;
+
+    height: 72%;
+  }
+
+  .cadastro {
+    width: 50%;
+  }
+
+  .apresentacao__cadastro > img {
+    width: 250px;
+    height: 62px;
+  }
+
+  .apresentacao__cadastro > p {
+    width: 80%;
+    text-align: center;
+  }
+
+  .subtitulo__2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  main{
+    background-position-y: 90%;
+    background-size: 8%;
+    top: 15%;
+    height: 75%;
+  }
+
+  .apresentacao__cadastro > p {
+    width: 50%;
+  }
+
+  .apresentacao__cadastro > img{
+    width: 180px;
+    height: 60px;
+  }
+
+  .cadastro {
+    width: 34%;
+  }
+}

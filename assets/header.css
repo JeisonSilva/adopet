@@ -24,6 +24,11 @@ header {
   display: none;
 }
 
+.patas{
+  position: absolute;
+  right: 0;
+}
+
 @media screen and (min-width: 768px) {
   header {
     background-image: url(./image/header2.svg);

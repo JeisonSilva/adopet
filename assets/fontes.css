@@ -18,6 +18,15 @@
   color: var(--branco);
 }
 
+.subtitulo__2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 21px;
+  color: var(--fundo);
+}
+
 .text {
   font-family: "Poppins";
   font-style: normal;
