@@ -53,12 +53,12 @@ body {
   display: none;
 }
 
-.cricaoconta{
-    width: 100%;
+.cricaoconta {
+  width: 100%;
 }
 
-.cricaoconta > a{
-    width: 60%;
+.cricaoconta > a {
+  width: 60%;
 }
 @media screen and (min-width: 768px) {
   .bemvindo {
@@ -82,11 +82,29 @@ body {
   }
 
   .cricaoconta {
+
+    max-width: 400px;
     width: 40%;
     height: 250px;
   }
 
-  .cricaoconta > a{
+  .cricaoconta > a {
     width: 100%;
+  }
 }
+
+@media screen and (min-width: 1280px) {
+  
+  img.bemvindo__logo {
+    width: 40%;
+    height: 40%;
+  }
+
+  .bemvindo > p {
+    font-size: 2em;
+  }
+
+  .cricaoconta {
+    width: 32%;
+  }
 }

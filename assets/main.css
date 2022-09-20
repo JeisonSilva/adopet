@@ -21,6 +21,14 @@ main {
     background-size: 116px;
     top: 245px;
 
-    height: 70%;
+    height: calc(100% - 25%);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  main{
+    top:80px;
+
+    height: 85%;
   }
 }

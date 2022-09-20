@@ -4,7 +4,6 @@ header {
   background-repeat: no-repeat;
 
   z-index: 0;
-  padding: 8% 0 0 0;
   width: 100vw;
   height: 290px;
 }
@@ -14,7 +13,10 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
   width: 50%;
+  max-width: 400px;
+  margin: 8% 0 0 0;
   height: 50px;
 }
 
@@ -25,6 +27,8 @@ header {
 @media screen and (min-width: 768px) {
   header {
     background-image: url(./image/header2.svg);
+
+    height: 435px;
   }
 
   .menu > li {
@@ -36,5 +40,15 @@ header {
   .menu > li:nth-child(1) {
     display: flex;
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  header{
+    height: 400px;
+  }
+
+  .menu {
+    margin: 4% 0 0 0;
   }
 }
