@@ -63,3 +63,13 @@ label > input{
 
   margin: 0 16px 0 0;
 }
+
+.apresentacao__cadastro{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 85%;
+  height: 25%;
+}
