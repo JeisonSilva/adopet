@@ -4,7 +4,7 @@ footer{
     bottom: 0;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: var(--verde);
     width: 100vw;
     height: 60px;
 
