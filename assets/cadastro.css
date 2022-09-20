@@ -14,8 +14,8 @@ main {
   background-position-y: 70%;
   background-size: 20%;
 
-  top: 25%;
-
+  height: 70%;
+  top: 20%;
   z-index: 1;
 }
 
@@ -28,35 +28,32 @@ main {
   height: 75%;
 }
 
-label{
+label {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-
-
-label > input{
+label > input {
   width: 100%;
 }
 
-
-.subtitulo__1{
+.subtitulo__1 {
   color: var(--roxo);
 }
 
-.input__icon{
+.input__icon {
   display: flex;
   position: relative;
   width: 100%;
 }
 
-.input__icon > input{
+.input__icon > input {
   width: 100%;
 }
 
-.input__icon > span{
+.input__icon > span {
   position: absolute;
   align-self: center;
   right: 0;
@@ -64,7 +61,7 @@ label > input{
   margin: 0 16px 0 0;
 }
 
-.apresentacao__cadastro{
+.apresentacao__cadastro {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
