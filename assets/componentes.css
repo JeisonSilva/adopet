@@ -23,3 +23,20 @@ input {
 
   height: 40px;
 }
+
+.card{
+  display: flex;
+  justify-content: center;
+  background-color: var(--cinza);
+  width: 100%;
+}
+
+.card__body{
+  display: flex;
+  flex-direction: column;
+}
+
+.card__mensagem{
+  display: flex;
+  column-gap: 16px;
+}

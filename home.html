@@ -14,17 +14,11 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <link rel="stylesheet" href="./assets/login.css" />
+    <link rel="stylesheet" href="./assets/home.css" />
     <title>Adopet</title>
   </head>
   <body>
     <header>
-      <img
-        class="patas"
-        src="./assets/image/Patas.svg"
-        alt="Três patas de animais"
-      />
-
       <nav>
         <ul class="menu">
           <li>
@@ -44,36 +38,33 @@
               ><img src="./assets/image/Mensagens.svg" alt="Menu mensagens"
             /></a>
           </li>
+          <li>
+            <a href="./mensagem.html"
+              ><img src="./assets/image/Usuário.svg" alt="Perfil do usuário"
+            /></a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <div class="apresentacao__cadastro">
-        <img src="./assets/image/logo1_2.svg" alt="Logo com nome Adopet" />
-        <p class="subtitulo__2">Já tem conta? Faça seu login:</p>
-      </div>
+      <p class="subtitulo__2">Olá! Veja os amigos disponíveis para adoção!</p>
 
-      <form action="#" class="cadastro">
-        <label class="subtitulo__1" for="email">
-          <p>Email</p>
-          <input
-            id="email"
-            type="email"
-            placeholder="Escolha seu melhor email"
-          />
-        </label>
-
-        <label class="subtitulo__1" for="senha">
-          <p>Senha</p>
-          <div class="input__icon">
-            <input id="senha" type="password" placeholder="Crie uma senha" />
-            <span class="material-symbols-outlined">visibility_off</span>
+      <div class="card">
+        <img src="./assets/image/dunga.svg" alt="Imagem de um cachorro" />
+        <div class="card__body">
+          <p class="text--azul">Dunga</p>
+          <p class="subtitulo--roxo">2 anos <br> Porte pequeno <br> Calmo e educado</p>
+          <p class="subtitulo__roxo--small">Rio de Janeiro (RJ)</p>
+          <div class="card__mensagem">
+            <img
+              src="./assets/image/mensagem.svg"
+              alt="Icone indicando mensagem"
+            />
+            <p class="subtitulo__roxo--mini">Falar com responsável</p>
           </div>
-        </label>
-        
-        <a class="button text" href="./home.html">Entrar</a>
-      </form>
+        </div>
+      </div>
     </main>
 
     <footer>

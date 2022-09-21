@@ -27,10 +27,46 @@
   color: var(--fundo);
 }
 
+.subtitulo--roxo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 20px;
+  color: var(--roxo);
+}
+
+.subtitulo__roxo--small {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--roxo);
+}
+
+.subtitulo__roxo--mini {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: var(--roxo);
+}
+
 .text {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 1em;
   line-height: 24px;
+}
+
+.text--azul {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 24px;
+  color: var(--fundo);
 }
