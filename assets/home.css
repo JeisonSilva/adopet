@@ -94,16 +94,21 @@ label > input {
   height: 83%;
 }
 
+main > p:nth-child(2){
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   main {
-    background-image: url(./image/main2.svg);
-    background-repeat: no-repeat;
-    background-position-x: right;
+    top: 25%;
+  }
 
-    background-position-y: 12%;
-    background-size: 15%;
+  main > p:nth-child(1){
+    display: none;
+  }
 
-    height: 72%;
+  main > p:nth-child(2){
+    display: block;
   }
 
   .cadastro {
@@ -122,6 +127,14 @@ label > input {
 
   .subtitulo__2 {
     font-size: 18px;
+  }
+
+  .grid__animais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin: 16px 0 0 0;
   }
 }
 
