@@ -94,7 +94,7 @@ label > input {
   height: 83%;
 }
 
-main > p:nth-child(2){
+main > p:nth-child(2) {
   display: none;
 }
 
@@ -103,12 +103,28 @@ main > p:nth-child(2){
     top: 25%;
   }
 
-  main > p:nth-child(1){
+  main > p:nth-child(1) {
     display: none;
   }
 
-  main > p:nth-child(2){
+  main > p:nth-child(2) {
     display: block;
+  }
+
+  .menu {
+    max-width: 100%;
+  }
+
+  .menu > li{
+    width: 30%;
+  }
+
+  .menu > li:last-child{
+    display: flex;
+    justify-content: end;
+
+    margin: 0 16px 0 0;
+    width: 100%;
   }
 
   .cadastro {
@@ -129,7 +145,7 @@ main > p:nth-child(2){
     font-size: 18px;
   }
 
-  .grid__animais{
+  .grid__animais {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
