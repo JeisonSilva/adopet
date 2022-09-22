@@ -190,6 +190,10 @@ main > p:nth-child(2) {
     grid-template-columns: 1fr 1fr 1fr;
     overflow: hidden;
     width: 85%;
-    height: 85%;
+    height: 89%;
+  }
+
+  footer{
+    height: 40px;
   }
 }
