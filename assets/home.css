@@ -1,0 +1,195 @@
+@import url(./reset.css);
+@import url(./cores.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./main.css);
+@import url(./fontes.css);
+@import url(./componentes.css);
+
+main {
+  background-color: inherit;
+  background-image: none;
+  justify-content: start;
+
+  top: 20%;
+  z-index: -1;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 70%;
+  height: 75%;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label > input {
+  width: 100%;
+}
+
+.subtitulo__1 {
+  color: var(--roxo);
+}
+
+.input__icon {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.input__icon > input {
+  width: 100%;
+}
+
+.input__icon > span {
+  position: absolute;
+  align-self: center;
+  right: 0;
+
+  margin: 0 16px 0 0;
+}
+
+.apresentacao__cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 85%;
+  height: 25%;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu > li:last-child {
+  display: block;
+}
+
+.subtitulo__2 {
+  width: 60%;
+  text-align: center;
+}
+
+.card__body > img {
+  width: 18px;
+  height: 18px;
+}
+
+.card__body {
+  justify-content: space-around;
+}
+
+.grid__animais {
+  overflow: scroll;
+  height: 83%;
+}
+
+main > p:nth-child(2) {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    top: 25%;
+  }
+
+  main > p:nth-child(1) {
+    display: none;
+  }
+
+  main > p:nth-child(2) {
+    display: block;
+  }
+
+  .menu {
+    max-width: 100%;
+  }
+
+  .menu > li{
+    width: 30%;
+  }
+
+  .menu > li:last-child{
+    display: flex;
+    justify-content: end;
+
+    margin: 0 16px 0 0;
+    width: 100%;
+  }
+
+  .cadastro {
+    width: 50%;
+  }
+
+  .apresentacao__cadastro > img {
+    width: 250px;
+    height: 62px;
+  }
+
+  .apresentacao__cadastro > p {
+    width: 80%;
+    text-align: center;
+  }
+
+  .subtitulo__2 {
+    font-size: 18px;
+  }
+
+  .grid__animais {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin: 16px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  main {
+    background-position-y: 50%;
+    background-size: 8%;
+    background-image: url(./image/main2.svg);
+    background-size: 100px;
+    top: 245px;
+    top: 20%;
+    height: 76%;
+  }
+
+  .apresentacao__cadastro > p {
+    width: 50%;
+  }
+
+  .apresentacao__cadastro > img {
+    width: 180px;
+    height: 60px;
+  }
+
+  .cadastro {
+    width: 34%;
+  }
+
+  .menu > li:nth-child(1){
+    width: 16%;
+  }
+
+  .menu > li{
+    width: 16%;
+  }
+
+  .grid__animais {
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+    width: 85%;
+    height: 85%;
+  }
+}
