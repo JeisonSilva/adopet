@@ -10,7 +10,7 @@ main {
   background-color: inherit;
   background-image: none;
   justify-content: start;
-  
+
   top: 20%;
   z-index: -1;
 }
@@ -75,22 +75,23 @@ label > input {
   display: block;
 }
 
-.subtitulo__2{
+.subtitulo__2 {
   width: 60%;
   text-align: center;
 }
 
-.card__body > img{
+.card__body > img {
   width: 18px;
   height: 18px;
 }
 
-.card__body{
+.card__body {
   justify-content: space-around;
 }
 
-footer{
-  position: unset;
+.grid__animais {
+  overflow: scroll;
+  height: 83%;
 }
 
 @media screen and (min-width: 768px) {
